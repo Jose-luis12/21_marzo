@@ -1,0 +1,27 @@
+.containers {
+    position: fixed !important;
+    
+    height: -2480px; /* Ajusta según sea necesario */
+  }
+  
+  .slideUp {
+    position: fixed !important;
+    bottom: 0;
+    animation: slideUp 2s ease forwards;
+    opacity: 0;
+    left: 520px !important;
+    color: rgba(255, 255, 255, 0.658);
+    font-size: 60px;
+  }
+  
+  @keyframes slideUp {
+    from {
+      bottom: -250px; /* Define la posición inicial */
+      opacity: 0; /* Define la opacidad inicial */
+    }
+    to {
+      bottom: 1; /* Define la posición final */
+      opacity: 1; /* Define la opacidad final */
+    }
+  }
+  
